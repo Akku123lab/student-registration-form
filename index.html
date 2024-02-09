@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h3>Student Registration Form</h3>
+
+    <form action="submit_registration.php" method="post">
+      <label for="name">First Name:</label>
+      <input type="text" id="name" name="First name" required><br><br>
+  
+      <label for="name">Last Name:</label>
+      <input type="text" id="name" name="Last name" required><br><br>
+  
+      <label for="email">Email ID:</label>
+      <input type="email" id="email" name="Email ID" required><br><br>
+  
+      <label for="name">Mobile Number:</label>
+      <input type="text" id="name" name="Mobile Number" required><br><br>
+  
+      <legend>Gender:</legend>
+  
+      <label for="female">Female</label>
+      <input type="radio" id="female" name="Gender" value="female" checked />
+  
+      <label for="male">Male</label>
+      <input type="radio" id="male" name="Gender" value="male" checked /><br><br>
+  
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required><br><br>
+  
+      <legend>Hobbies:</legend>
+  
+      <input type="checkbox" id="Drawing" name="Drawing" checked />
+      <label for="Drawing">Drawing</label>
+      <br><br>
+      <input type="checkbox" id="Singing" name="Singing" checked />
+      <label for="Singing">Singing</label>
+      <br><br>
+      <input type="checkbox" id="Dancing" name="Dancing" checked />
+      <label for="Dancing">Dancing</label>
+      <br><br>
+      <input type="checkbox" id="Skecthing" name="Skecthing" checked />
+      <label for="Skecthing">Skecthing</label>
+      <br><br>
+      <label for="Others">Others:</label>
+      <input type="text" id="Others" name="Others" checked />
+      <br><br>
+  
+  
+  
+      <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
